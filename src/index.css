@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'BYekan';
+  src: url('./fonts/BYekan.eot');
+}
+@font-face {
+  font-family: 'BYekan';
+  src: url('./fonts/BYekan.ttf');
+}
+@font-face {
+  font-family: 'BYekan';
+  src: url('./fonts/BYekan.woff');
+}
+
+
+body  , #root , html{
+  margin: 0;
+  height: 100%;
+  background-color: #d9caf1; 
+  background-image: url('./img/camera.jpg');
+  background-size: cover;
+  background-position: center ;
+}
+
+*{
+  font-family: BYekan;
+}
