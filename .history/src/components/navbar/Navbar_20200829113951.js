@@ -341,7 +341,7 @@ export default function PrimarySearchAppBar() {
             </IconButton>
           </div>
           <div className={classes.sectionMobile}>
-            <IconButton disabled
+            <IconButton
               aria-label="show more"
               aria-controls={mobileMenuId}
               aria-haspopup="true"

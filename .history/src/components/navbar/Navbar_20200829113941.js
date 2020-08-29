@@ -318,7 +318,7 @@ export default function PrimarySearchAppBar() {
                 </div>
                
           <div className={classes.grow} />
-          <div className={classes.sectionDesktop}>
+          {/* <div className={classes.sectionDesktop}>
             <IconButton aria-label="show 4 new mails" color="inherit">
               <Badge badgeContent={4} color="secondary">
                 <MailIcon />
@@ -339,9 +339,9 @@ export default function PrimarySearchAppBar() {
             >
               <AccountCircle />
             </IconButton>
-          </div>
+          </div> */}
           <div className={classes.sectionMobile}>
-            <IconButton disabled
+            <IconButton
               aria-label="show more"
               aria-controls={mobileMenuId}
               aria-haspopup="true"
