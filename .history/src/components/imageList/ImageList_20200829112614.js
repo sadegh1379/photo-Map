@@ -127,9 +127,8 @@ function ImageList(props) {
                           <DialogActions>
                       
                               <Button onClick={removeZoom} className={classes.close} variant="outlined"   color="secondary" autoFocus>
-                              <CloseIcon/>
                                 بستن  
-                               
+                                <Clo
                               </Button>
                           </DialogActions>
                 </Dialog>

@@ -11,7 +11,7 @@ import ZoomInIcon from '@material-ui/icons/ZoomIn';
 import Dialog from '@material-ui/core/Dialog';
 import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
-import CloseIcon from '@material-ui/icons/Close';
+
 import Button from '@material-ui/core/Button';
 import Link from '@material-ui/core/Link';
 import Typography from '@material-ui/core/Typography';
@@ -127,9 +127,7 @@ function ImageList(props) {
                           <DialogActions>
                       
                               <Button onClick={removeZoom} className={classes.close} variant="outlined"   color="secondary" autoFocus>
-                              <CloseIcon/>
                                 بستن  
-                               
                               </Button>
                           </DialogActions>
                 </Dialog>
